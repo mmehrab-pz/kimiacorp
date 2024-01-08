@@ -1,0 +1,125 @@
+//  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (max-width:576px) {
+    #headerContent {
+        >form {
+            width: 90%;
+        }
+    }
+
+    #home-main-about {
+        >div {
+            >h3 {
+                font-size: 20px;
+            }
+
+            &:nth-of-type(2) {
+                margin-top: 30px;
+                padding: 0 10%;
+            }
+        }
+    }
+
+    #home-main-update {
+        >form {
+            >input {
+                width: 380px;
+            }
+        }
+    }
+
+    #home-footer {
+        >div {
+            margin-bottom: 40px;
+            margin-left: 0px;
+            padding-left: 50px;
+        }
+    }
+
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:576px) {
+    #headerContent {
+        >form {
+            width: 90%;
+        }
+    }
+
+    #home-main-about {
+        >div {
+            >h3 {
+                font-size: 20px;
+            }
+
+            &:nth-of-type(2) {
+                margin-top: 30px;
+                padding: 0 10%;
+            }
+        }
+    }
+
+    #home-main-update {
+        >form {
+            >input {
+                width: 380px;
+            }
+        }
+    }
+
+    #home-footer {
+        >div {
+            margin-bottom: 40px;
+            margin-left: 0px;
+            padding-left: 50px;
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:768px) {
+    #home-main-about {
+        >div {
+            >h3 {
+                font-size: 16px;
+            }
+
+            &:nth-of-type(2) {
+                margin-top: 0px;
+                padding: 0 0 0 3%;
+            }
+        }
+    }
+
+    #home-main-update {
+        >form {
+            >input {
+                width: 480px;
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:992px) {
+
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1200px) {
+    #home-main-update {
+        >form {
+            >input {
+                width: 510px;
+            }
+        }
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1400px) {
+
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1600px) {
+}

@@ -1,0 +1,112 @@
+@media screen and (max-width: 576px) {
+  #we-are-good {
+    width: 90%;
+    margin: 100px auto;
+  }
+  #we-are-good > div:nth-of-type(1) > h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #services-main-card {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  #services-main-step {
+    width: 90%;
+  }
+  #services-main-step > div {
+    padding: 30px 30px;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #we-are-good {
+    width: 90%;
+    margin: 100px auto;
+  }
+  #we-are-good > div:nth-of-type(1) > h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #services-main-card {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  #services-main-step {
+    width: 90%;
+  }
+  #services-main-step > div {
+    padding: 30px 30px;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #we-are-good > div:nth-of-type(1) > h2 {
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+  #we-are-good > div:nth-of-type(2) {
+    align-items: end;
+    padding-left: 10px;
+  }
+  #services-main-step {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #services-main-step > div {
+    padding: 30px 30px;
+    margin-left: 50px;
+  }
+  #services-main-card {
+    width: 90%;
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #we-are-good {
+    margin: 140px auto;
+  }
+  #we-are-good > div:nth-of-type(1) > h2 {
+    font-size: 45px;
+  }
+  #we-are-good > div:nth-of-type(2) {
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #we-are-good {
+    width: 80%;
+  }
+  #we-are-good > div:nth-of-type(1) > h2 {
+    font-size: 50px;
+  }
+  #we-are-good > div:nth-of-type(2) {
+    padding-left: 0px;
+  }
+  #services-main-card {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #services-main-step {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #services-main-step > div {
+    padding: 50px 70px;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #headerContent > form {
+    width: 60%;
+  }
+  #we-are-good {
+    width: 60%;
+  }
+  #services-main-card {
+    width: 60%;
+  }
+}/*# sourceMappingURL=local.css.map */

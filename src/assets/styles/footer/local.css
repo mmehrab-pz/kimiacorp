@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+  #footer > div {
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #footer > div {
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #footer > div {
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding-left: 0px;
+  }
+}/*# sourceMappingURL=local.css.map */

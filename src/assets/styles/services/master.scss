@@ -1,0 +1,171 @@
+#services-main {
+    width: 100%;
+
+    #we-are-good {
+
+        >div {
+            &:nth-of-type(1) {
+                >p {
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    font-family: Prompt-Medium;
+                    padding-left: 20px;
+                    margin-bottom: 15px;
+                }
+
+                >h2 {
+                    text-transform: capitalize;
+                    font-family: Prompt-SemiBold;
+                    border-left: 4px solid #784693;
+                    padding-left: 20px;
+                }
+            }
+
+            &:nth-of-type(2) {
+                display: flex;
+
+                >p {
+                    font-size: 16px;
+                    color: #4a4a4a;
+                }
+            }
+        }
+    }
+
+    #services-main-card {
+        margin: 0 auto;
+
+        >div {
+
+            &:nth-of-type(1),
+            &:nth-of-type(2) {
+                >div {
+                    height: 305px;
+                    // border: 1px solid black;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    position: relative;
+
+                    >span {
+                        display: flex;
+                        border: 2px solid #784693;
+                        position: absolute;
+                        width: 96%;
+                        top: 10px;
+                        transition: .3s ease-in-out;
+                    }
+
+                    >p,
+                    h3 {
+                        text-align: center;
+                    }
+
+                    >h3 {
+                        text-transform: capitalize;
+                        font-size: 20px;
+                        color: #16163f;
+                        font-family: Prompt-SemiBold;
+                        margin-bottom: 20px;
+                    }
+
+                    >p {
+                        font-size: 13px;
+                        color: #222222;
+                        width: 70%;
+                    }
+
+                    &:hover {
+                        >span {
+                            border-color: #D3B574;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #why-choose {
+        width: 100%;
+        min-height: 510px;
+        background: url(../../img/png-jpg-webp/img2.jpg) fixed;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 0 5%;
+
+        >* {
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        >h6 {
+            font-size: 18px;
+            font-family: Prompt-SemiBold;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+
+        >h2 {
+            font-size: 50px;
+            font-family: Prompt-SemiBold;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+
+        >p {
+            max-width: 900px;
+        }
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-color: #16163f;
+            opacity: .75;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    #services-main-step {
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+
+        >div {
+            border-left: 4px solid #784693;
+
+            >h3 {
+                font-size: 50px;
+                color: #211f40;
+                font-family: Prompt-Bold;
+                margin-bottom: 20px;
+            }
+
+            >h5 {
+                font-size: 20px;
+                color: #4a4a4a;
+                font-family: Prompt-SemiBold;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+
+            >p {
+                color: #211f40;
+                font-size: 15px;
+            }
+        }
+    }
+}

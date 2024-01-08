@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Prompt-Regular;
+    src: url(../../assets/fonts/Inter/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Prompt-Medium;
+    src: url(../../assets/fonts/Inter/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Prompt-SemiBold;
+    src: url(../../assets/fonts/Inter/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: Prompt-Bold;
+    src: url(../../assets/fonts/Inter/Inter-Bold.ttf);
+}
+
+/* ------------------------------------------------------ */
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    overflow-x: hidden;
+    font-family: Prompt-Regular;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid,
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}

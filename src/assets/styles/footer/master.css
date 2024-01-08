@@ -1,0 +1,47 @@
+#footer {
+  width: 100%;
+  min-height: 340px;
+  background-color: #1A0E1F;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 3% 0 3%;
+}
+#footer > div {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  height: 300px;
+}
+#footer > div > figure > img {
+  width: 35%;
+  filter: brightness(200%) contrast(200%) saturate(0%) blur(0px) hue-rotate(360deg);
+}
+#footer > div > h6 {
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+#footer > div > ul {
+  margin-top: 20px;
+}
+#footer > div > ul > li {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Prompt-Medium;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+#footer > div > ul > li > i {
+  margin-right: 10px;
+}
+#footer > div > ul > li > a {
+  transition: 0.3s ease-in-out;
+}
+#footer > div > ul > li > a > i {
+  margin-right: 10px;
+}
+#footer > div > ul > li > a:hover {
+  color: #784693;
+}/*# sourceMappingURL=master.css.map */

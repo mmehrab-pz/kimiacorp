@@ -1,0 +1,99 @@
+@media screen and (max-width: 576px) {
+  #headerContent > form {
+    width: 90%;
+  }
+  #about-us {
+    width: 85%;
+    padding: 50px 0;
+  }
+  #about-us > div > span {
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+  #about-us > div > div > h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #about-us > div > div > p {
+    font-size: 14px;
+  }
+  #home-footer > div {
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #headerContent > form {
+    width: 90%;
+  }
+  #about-us {
+    width: 85%;
+    padding: 50px 0;
+  }
+  #about-us > div > span {
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+  #about-us > div > div > h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #about-us > div > div > p {
+    font-size: 14px;
+  }
+  #home-footer > div {
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #headerContent > form {
+    width: 80%;
+  }
+  #about-us {
+    width: 85%;
+    padding: 150px 0;
+  }
+  #about-us > div > span {
+    margin-bottom: 0px;
+  }
+  #about-us > div > div > h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  #about-us > div > div > p {
+    font-size: 16px;
+  }
+  #home-footer > div {
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding-left: 0px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #headerContent > form {
+    width: 70%;
+  }
+  #about-us {
+    width: 85%;
+  }
+  #about-us > div > span {
+    margin-bottom: 0px;
+  }
+  #about-us > div > div > h2 {
+    font-size: 42px;
+  }
+  #about-us > div > div > p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #headerContent > form {
+    width: 60%;
+  }
+  #about-us {
+    width: 65%;
+  }
+}/*# sourceMappingURL=local.css.map */
